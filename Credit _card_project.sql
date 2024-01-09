@@ -135,13 +135,6 @@ group by city
 order by ratio desc
 
 
---select  city, sum(amount)*1.0/count(transaction_date) ratio
-----DATENAME(weekday,transaction_date)
---from credit_card_transcations
---where datename(weekday,transaction_date) in('saturday','sunday') 
---group by city
---order by ratio desc
-
 --9- which city took least number of days to reach its 500th transaction after the first transaction in that city
 with cte as (
 select city, count(*) city_wise_transaction,
