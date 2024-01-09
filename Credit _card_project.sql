@@ -1,3 +1,5 @@
+/*Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Type */
+
 --1- write a query to print top 5 cities with highest spends and their percentage contribution of total credit card spends
 
 with cte as (
